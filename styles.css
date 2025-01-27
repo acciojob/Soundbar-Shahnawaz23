@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #9b59b6;
+}
+
+#buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #5e3370;
+  color: white;
+  font-size: 16px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #452955;
+  transform: scale(1.1);
+}
+
+.stop {
+  background-color: #d35400;
+}
+
+.stop:hover {
+  background-color: #a04100;
+}
